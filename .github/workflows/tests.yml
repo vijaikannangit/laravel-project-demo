@@ -3,11 +3,7 @@ name: Tests
 on:
   push:
     branches:
-<<<<<<< HEAD
-      # - main  
-=======
-      - main
->>>>>>> 53164f0c5b58595632e03ecf2849151a8ccc22eb
+      - main  
       - '*.x'
   pull_request:
   schedule:
